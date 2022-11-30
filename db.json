@@ -17,6 +17,24 @@
             "image": "https://placeimg.com/200/150/people",
             "title": "Sri Kustyantini", 
             "body":"Ini ibunya Edo <3"
+        },
+        {
+            "id": 4, 
+            "image": "https://placeimg.com/200/150/tech",
+            "title": "Revaldo Pratama Putra", 
+            "body":"ini juga dari DB authornya bro"
+        },
+        {
+            "id": 5, 
+            "image": "https://placeimg.com/200/150/any",
+            "title": "Aulia Kintan Febriane", 
+            "body":"Halo, ini adalah orang"
+        },
+        {
+            "id": 6, 
+            "image": "https://placeimg.com/200/150/people",
+            "title": "Sri Kustyantini", 
+            "body":"Ini ibunya Edo <3"
         }
     ]
 }

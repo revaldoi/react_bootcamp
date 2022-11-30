@@ -142,3 +142,11 @@
     font-size: 16px;
     color: #4a4a4a;
 }
+
+.remove {
+  padding: 12px 18px;
+  background: rgb(227, 122, 122);
+  color: white;
+  border-radius: 200px;
+  outline: #3d4a6e;
+}
