@@ -1,18 +1,6 @@
 {
   "posts": [
     {
-      "id": 1,
-      "image": "https://placeimg.com/200/150/tech",
-      "title": "Revaldo Pratama",
-      "body": "ini juga dari DB authornya bro"
-    },
-    {
-      "id": 2,
-      "image": "https://placeimg.com/200/150/any",
-      "title": "Aulia Kintan Febriane",
-      "body": "Halo, ini adalah orang"
-    },
-    {
       "id": 3,
       "image": "https://placeimg.com/200/150/people",
       "title": "Sri Kustyantini",
@@ -37,30 +25,9 @@
       "body": "Ini ibunya Edo <3"
     },
     {
-      "id": 1669937605808,
-      "title": "halo",
-      "body": "ko ga masuk masuk :(",
-      "userId": 1,
-      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
-    },
-    {
-      "id": 1669937651949,
-      "title": "Revaldo lagi",
-      "body": "coba coba lagi hehe",
-      "userId": 1,
-      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
-    },
-    {
-      "id": 1669937693597,
-      "title": "Apakah ini masuk",
-      "body": "kalo ini masuk berarti headernya :(",
-      "userId": 1,
-      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
-    },
-    {
-      "id": 1669937791258,
-      "title": "default",
-      "body": "gapake judul",
+      "id": 1670083052738,
+      "title": "Revaldo Pratama Putra",
+      "body": "Halo ini data dari web hehe\n",
       "userId": 1,
       "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
     }
