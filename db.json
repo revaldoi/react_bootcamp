@@ -3,14 +3,14 @@
     {
       "id": 3,
       "image": "https://placeimg.com/200/150/people",
-      "title": "Sri Kustyantini",
-      "body": "Ini ibunya Edo <3"
+      "title": "Ibunya Edo",
+      "body": "Ini ibunya Revaldo"
     },
     {
       "id": 4,
       "image": "https://placeimg.com/200/150/tech",
       "title": "Revaldo Pratama Putra",
-      "body": "ini juga dari DB authornya bro"
+      "body": "ini sih edo"
     },
     {
       "id": 5,
@@ -23,13 +23,6 @@
       "image": "https://placeimg.com/200/150/people",
       "title": "Sri Kustyantini",
       "body": "Ini ibunya Edo <3"
-    },
-    {
-      "id": 1670083052738,
-      "title": "Revaldo Pratama Putra",
-      "body": "Halo ini data dari web hehe\n",
-      "userId": 1,
-      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
     }
   ]
 }

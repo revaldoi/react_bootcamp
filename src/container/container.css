@@ -151,6 +151,13 @@
   outline: #3d4a6e;
 }
 
+.update {
+  padding: 12px 18px;
+  background: rgb(122, 169, 227);
+  color: white;
+  border-radius: 200px;
+}
+
 .form-add-post {
   box-shadow: 0px 0px 16px rgba(0,0,0,0.5);
   width: 500px;
