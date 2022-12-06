@@ -1,7 +1,25 @@
-import React, {Component, Fragment } from "react";
+import React, {Component} from "react";
+// import { BrowserRouter, Link, Route } from "react-router-dom";
+import {
+    createBrowserRouter,
+    RouterProvider,
+    Route,
+  } from "react-router-dom";
 // import YoutubeComponent from "../component/YoutubeComponent";
 import BlogPost from "./BlogPost";
 import Product from "./Product";
+
+const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <BlogPost />,
+    },
+    {
+        path: "/product",
+        element: <Product />,
+      },
+]);
+  
 
 class Home extends Component {
     render(){
@@ -14,10 +32,14 @@ class Home extends Component {
             //     <YoutubeComponent 
             //         time=""/>
             // </div>
-            <Fragment>
-                <Product/>
-                <BlogPost/>
-            </Fragment>
+
+            // <BrowserRouter>
+            //     <Fragment>
+            //         <Route path="/" component={BlogPost} />
+            //         <Route path="/product" component={Product} />
+            //     </Fragment>
+            // </BrowserRouter>
+            <RouterProvider router={router} />
         )
     }
 }
