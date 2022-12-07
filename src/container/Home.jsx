@@ -1,24 +1,26 @@
-import React, {Component} from "react";
+import React, {Component, Fragment} from "react";
+import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+
 // import { BrowserRouter, Link, Route } from "react-router-dom";
-import {
-    createBrowserRouter,
-    RouterProvider,
-    Route,
-  } from "react-router-dom";
+// import {
+//     createBrowserRouter,
+//     RouterProvider,
+//     Route,
+//   } from "react-router-dom";
 // import YoutubeComponent from "../component/YoutubeComponent";
 import BlogPost from "./BlogPost";
 import Product from "./Product";
 
-const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <BlogPost />,
-    },
-    {
-        path: "/product",
-        element: <Product />,
-      },
-]);
+// const router = createBrowserRouter([
+//     {
+//       path: "/",
+//       element: <BlogPost />,
+//     },
+//     {
+//         path: "/product",
+//         element: <Product />,
+//       },
+// ]);
   
 
 class Home extends Component {
@@ -32,14 +34,23 @@ class Home extends Component {
             //     <YoutubeComponent 
             //         time=""/>
             // </div>
-
+            
             // <BrowserRouter>
             //     <Fragment>
-            //         <Route path="/" component={BlogPost} />
-            //         <Route path="/product" component={Product} />
+            //         <Route exact path="/" element={<BlogPost/>} />
+            //         <Route path="/product" element={<Product/>} />
             //     </Fragment>
             // </BrowserRouter>
-            <RouterProvider router={router} />
+
+            // <RouterProvider router={router} />
+
+            <Router>
+              <Routes>
+                <Route exact path="/" element={<h1>Home Page</h1>} />
+                <Route exact path="a" element={<BlogPost />} />
+                <Route exact path="b" element={<Product />} />
+              </Routes>
+            </Router>
         )
     }
 }
