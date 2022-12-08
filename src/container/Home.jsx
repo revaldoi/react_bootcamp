@@ -45,6 +45,14 @@ class Home extends Component {
             // <RouterProvider router={router} />
 
             <Router>
+              <div className="list">
+                  <ul>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="a">Page 1</Link></li>
+                    <li><Link to="b">Page 2</Link></li>
+                    <li><Link to="a">Page 3</Link></li>
+                  </ul>
+                </div>
               <Routes>
                 <Route exact path="/" element={<h1>Home Page</h1>} />
                 <Route exact path="a" element={<BlogPost />} />
