@@ -1,12 +1,6 @@
 {
   "posts": [
     {
-      "id": 3,
-      "image": "https://placeimg.com/200/150/people",
-      "title": "Srii Kustyantini",
-      "body": "Ini ibunya Revaldo"
-    },
-    {
       "id": 4,
       "image": "https://placeimg.com/200/150/tech",
       "title": "Revaldo Pratama Putra",
@@ -19,10 +13,11 @@
       "body": "Halo, ini adalah orang"
     },
     {
-      "id": 6,
-      "image": "https://placeimg.com/200/150/people",
-      "title": "Sri Kustyantini",
-      "body": "Ini ibunya Revaldo Pratama Putra ini baru di update ya hehe"
+      "id": 1670743973075,
+      "title": "Edo Modo",
+      "body": "Ini revaldo pratama putra",
+      "userId": 1,
+      "image": "https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
     }
   ]
 }
