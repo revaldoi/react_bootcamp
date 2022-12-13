@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from "react";
+// import { useNavigate } from "react-router-dom";
 import './container.css';
 import Post from "../component/Post";
+// import {BrowserHistory} from 'react-router-dom';
 
 class BlogPost extends Component{
     state ={
@@ -12,7 +14,7 @@ class BlogPost extends Component{
             userId: 1,
             image: 'https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tfGVufDB8fDB8fA%3D%3D&w=1000&q=80'
         },
-        isUpdate: false
+        isUpdate: false,
     }
 
     getApi = () => {
@@ -22,6 +24,9 @@ class BlogPost extends Component{
             this.setState({
                 post: json
             })
+        })
+        .then(res => {
+            console.log('result: ', res)
         })
     }
 
@@ -77,6 +82,12 @@ class BlogPost extends Component{
             )  
     }
 
+    handleDetail = (id) => {
+        // this.props.navigation.navigate('YouScreen', {paramsIfAny})
+        // navigate(`detail-post/${id}`)
+        // this.props.history.push(`/detail-post/1`);
+    }
+
     hanldeFormChange = (event) => {
         let formBlogPostNew = {...this.state.formBlogPost};
         let timeStamp = new Date().getTime();
@@ -116,7 +127,7 @@ class BlogPost extends Component{
                 </div>
                 {
                     this.state.post.map(post => {
-                        return <Post key={post.id} data={post} remove={this.handleRemove} update={this.handleUpdate}/>
+                        return <Post key={post.id} data={post} remove={this.handleRemove} update={this.handleUpdate} goDetail={this.handleDetail}/>
                     })
                 }
             </Fragment>
