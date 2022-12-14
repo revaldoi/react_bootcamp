@@ -2,7 +2,7 @@ import React, {Component, Fragment} from "react";
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 // import { BrowserRouter, Link, Route } from "react-router-dom";
 import BlogPost from "./BlogPost";
-import DetailPost from "./DetailPost";
+import DetailPost from "./DetailPost3";
 import Product from "./Product";
 
 
@@ -32,7 +32,7 @@ class Home extends Component {
                   <Route exact path="/" element={<BlogPost />} />
                   <Route path="/a" element={<BlogPost />} />
                   <Route path="b" element={<Product />} />
-                  <Route path="/a/detail-post/:id" element={<DetailPost/>} />
+                  <Route path="/a/detail-post/:id" element={<DetailPost3/>} />
                   <Route path="/detail-post/:id" element={<DetailPost/>} />
                 </Routes>
               </Fragment>

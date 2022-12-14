@@ -25,9 +25,6 @@ class BlogPost extends Component{
                 post: json
             })
         })
-        .then(res => {
-            console.log('result: ', res)
-        })
     }
 
     postApi = () => {
